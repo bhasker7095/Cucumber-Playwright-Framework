@@ -1,0 +1,7 @@
+node_modules/
+reports/
+screenshots/
+test-results/
+playwright-report/
+bhasker-report.html
+cucumber-report.html
