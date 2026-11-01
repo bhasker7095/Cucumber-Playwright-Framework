@@ -2,6 +2,8 @@ Feature: DemoBlaze Website
 
     # Cucumber Playwright Automation Framework
 
+    # Git branch practise
+
     Background:
         Given user navigates to the DemoBlaze website
 
