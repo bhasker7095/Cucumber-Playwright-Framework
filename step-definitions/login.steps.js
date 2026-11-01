@@ -3,6 +3,8 @@ const HomePage = require('../pages/HomePage')
 const { expect } = require('@playwright/test')
 
 
+// cucumber playwright automation framework
+
 Given('user navigates to the DemoBlaze website', async function () {
     this.homepage = new HomePage(this.page)
     await this.homepage.navigate()
