@@ -1,6 +1,6 @@
 Feature: DemoBlaze Website
 
-# Cucumber Playwright Automation Framework
+    # Cucumber Playwright Automation Framework
 
     Background:
         Given user navigates to the DemoBlaze website
@@ -43,6 +43,8 @@ Feature: DemoBlaze Website
     Scenario: Verify product using this
         When user stores a product name
         Then stored product name should be displayed
-
+    Scenario: Verify invalid login
+        When user enters invalid login credentials
+        Then login error message  should be displayed
 
 
